@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Priyanshi Jain</title>
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/layout.css" />
+  <link rel="stylesheet" href="styles/landing.css" />
+</head>
+
+<body>
+
+  <div class="app-background">
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">Priyanshi</div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="lab/index.html">Starboard</a></li>
+          <li><button class="contact-nav" id="contactBtnNav">Contact</button></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <main class="landing-container">
+
+      <section class="intro">
+
+        <!-- LEFT -->
+        <div class="left-content">
+          <h1>Priyanshi Jain</h1>
+
+          <h2>I build systems, interfaces & experiments.</h2>
+
+          <p>
+            ECE undergrad passionate about frontend, creative coding,
+            and crafting meaningful digital experiences.
+          </p>
+
+          <div class="cta-buttons">
+            <a href="projects.html" class="btn primary">Projects</a>
+            <a href="lab/index.html" class="btn secondary">Starboard</a>
+            <button class="btn outline" id="contactBtn">Contact Me</button>
+          </div>
+        </div>
+
+
+        <!-- RIGHT -->
+        <div class="right-content">
+          <img src="assets/images/img.png" alt="Illustration">
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <!-- CONTACT MODAL -->
+    <div id="contactModal" class="modal hidden">
+
+      <div class="modal-box">
+        <span class="close">&times;</span>
+
+        <h2>Contact Me</h2>
+
+        <p><strong>Email:</strong> yourmail@gmail.com</p>
+
+        <div class="links">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="js/modal.js"></script>
+</body>
+
+</html>

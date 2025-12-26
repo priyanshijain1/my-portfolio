@@ -1,0 +1,52 @@
+.app-background {
+  min-height: 100vh;
+  width: 100%;
+  background: var(--bg-gradient);
+  padding: 30px;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a,
+.contact-nav {
+  font-size: 15px;
+  color: var(--text-dark);
+  background: transparent;
+}
+
+
+/* MAIN CONTAINER */
+
+.landing-container {
+  width: 90%;
+  max-width: 1150px;
+  margin: auto;
+  background: var(--white);
+  border-radius: 30px;
+  padding: 50px 60px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
