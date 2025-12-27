@@ -21,7 +21,7 @@ function createSpotifyWidget(x, y) {
 
   async function update() {
     try {
-      const res = await fetch("http://127.0.0.1:3001/spotify/recently-played");
+      const res = await fetch("https://my-portfolio-tan-nine-66.vercel.app/api/spotify");
       const data = await res.json();
       if (!data) return;
 
